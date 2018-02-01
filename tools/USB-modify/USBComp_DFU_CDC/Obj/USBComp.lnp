@@ -1,0 +1,22 @@
+--cpu Cortex-M0
+".\obj\core_cm0.o"
+".\obj\system_lpc11uxx.o"
+".\obj\startup_lpc11uxx.o"
+".\obj\usbcore.o"
+".\obj\usbhw.o"
+".\obj\dfuuser.o"
+".\obj\cdcuser.o"
+".\obj\serial.o"
+".\obj\sbl_iap.o"
+".\obj\demo.o"
+".\obj\usbuser.o"
+".\obj\usbdesc.o"
+".\obj\ads1014.o"
+".\obj\ads1100.o"
+".\obj\pca9555.o"
+".\obj\lpc11xx_debug.o"
+".\obj\lpc11xx_uart.o"
+--strict --scatter ".\Obj\USBComp.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Lst\USBComp.map" -o .\Obj\USBComp.axf

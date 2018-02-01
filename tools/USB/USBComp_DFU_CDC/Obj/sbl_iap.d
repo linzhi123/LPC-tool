@@ -1,0 +1,10 @@
+.\obj\sbl_iap.o: sbl_iap.c
+.\obj\sbl_iap.o: sbl_iap.h
+.\obj\sbl_iap.o: sbl_config.h
+.\obj\sbl_iap.o: E:\keil\ARM\ARMCC\Bin\..\include\string.h
+.\obj\sbl_iap.o: ..\Common\inc\LPC11Uxx.h
+.\obj\sbl_iap.o: ..\Common\inc\core_cm0.h
+.\obj\sbl_iap.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\sbl_iap.o: ..\Common\inc\core_cmInstr.h
+.\obj\sbl_iap.o: ..\Common\inc\core_cmFunc.h
+.\obj\sbl_iap.o: ..\Common\inc\system_LPC11Uxx.h

@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I ..\USBClass\DFU -I ..\USBClass\CDC -I ..\Common\inc -I ..\USBCore -I ..\USBComp_DFU_CDC -I .\I2C
+-I.\RTE\_USBComp_Release
+-IE:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx
+-IE:\keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="523" -D__DEBUG_FLASH
+-o .\obj\usbuser.o --omf_browse .\obj\usbuser.crf --depend .\obj\usbuser.d "usbuser.c"

@@ -1,0 +1,10 @@
+.\obj\pca9555.o: I2C\PCA9555.c
+.\obj\pca9555.o: ..\Common\inc\lpc11uxx.h
+.\obj\pca9555.o: ..\Common\inc\core_cm0.h
+.\obj\pca9555.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\pca9555.o: ..\Common\inc\core_cmInstr.h
+.\obj\pca9555.o: ..\Common\inc\core_cmFunc.h
+.\obj\pca9555.o: ..\Common\inc\system_LPC11Uxx.h
+.\obj\pca9555.o: I2C\lpc11xx_uart.h
+.\obj\pca9555.o: I2C\lpc_types.h
+.\obj\pca9555.o: I2C\print.h

@@ -1,0 +1,9 @@
+.\obj\usbdesc.o: usbdesc.c
+.\obj\usbdesc.o: ..\Common\inc\type.h
+.\obj\usbdesc.o: ..\USBCore\usb.h
+.\obj\usbdesc.o: usbcfg.h
+.\obj\usbdesc.o: usbdesc.h
+.\obj\usbdesc.o: ..\USBClass\DFU\dfuuser.h
+.\obj\usbdesc.o: ..\USBClass\DFU\dfu.h
+.\obj\usbdesc.o: ..\USBClass\CDC\cdc.h
+.\obj\usbdesc.o: ..\USBClass\CDC\cdcuser.h

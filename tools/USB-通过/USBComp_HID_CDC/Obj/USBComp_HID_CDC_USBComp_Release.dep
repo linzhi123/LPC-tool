@@ -1,0 +1,99 @@
+Dependencies for Project 'USBComp_HID_CDC', Target 'USBComp_Release': (DO NOT MODIFY !)
+F (..\Common\src\core_cm0.c)(0x4D8FFC98)(-c --cpu Cortex-M0 -g -O2 --apcs=interwork -I. -I..\Common\inc -I..\USBCore -I..\USBClass\HID -I..\USBClass\CDC-I "E:\3.指纹门锁\HSM Tool\USB composite device on LPC11Uxx\software\USBComp_HID_CDC\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="515" -D_RTE_ -D__DEBUG_FLASH-o .\obj\core_cm0.o --omf_browse .\obj\core_cm0.crf --depend .\obj\core_cm0.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+F (..\Common\src\system_LPC11Uxx.c)(0x4DF5721C)(-c --cpu Cortex-M0 -g -O2 --apcs=interwork -I. -I..\Common\inc -I..\USBCore -I..\USBClass\HID -I..\USBClass\CDC-I "E:\3.指纹门锁\HSM Tool\USB composite device on LPC11Uxx\software\USBComp_HID_CDC\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="515" -D_RTE_ -D__DEBUG_FLASH-o .\obj\system_lpc11uxx.o --omf_browse .\obj\system_lpc11uxx.crf --depend .\obj\system_lpc11uxx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Common\inc\LPC11Uxx.h)(0x4EA4B986)
+I (..\Common\inc\core_cm0.h)(0x4D8FFC98)
+I (..\Common\inc\core_cmInstr.h)(0x4D8FFC98)
+I (..\Common\inc\core_cmFunc.h)(0x4D8FFC98)
+I (..\Common\inc\system_LPC11Uxx.h)(0x4D8FFC98)
+F (..\Common\src\startup_LPC11Uxx.s)(0x4D8FFC98)(--cpu Cortex-M0 -g --apcs=interwork -I "E:\3.指纹门锁\HSM Tool\USB composite device on LPC11Uxx\software\USBComp_HID_CDC\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "NO_CRP SETA 1"--list .\lst\startup_lpc11uxx.lst --xref -o .\obj\startup_lpc11uxx.o --depend .\obj\startup_lpc11uxx.d)
+F (..\USBCore\usbcore.c)(0x4FBB3C96)(-c --cpu Cortex-M0 -g -O2 --apcs=interwork -I. -I..\Common\inc -I..\USBCore -I..\USBClass\HID -I..\USBClass\CDC-I "E:\3.指纹门锁\HSM Tool\USB composite device on LPC11Uxx\software\USBComp_HID_CDC\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="515" -D_RTE_ -D__DEBUG_FLASH-o .\obj\usbcore.o --omf_browse .\obj\usbcore.crf --depend .\obj\usbcore.d)
+I (..\Common\inc\type.h)(0x4FBB3856)
+I (..\USBCore\usb.h)(0x4FBB3588)
+I (.\usbcfg.h)(0x4FBDDBB4)
+I (..\USBCore\usbhw.h)(0x4FBB0F8A)
+I (..\USBCore\usbcore.h)(0x4FBB0338)
+I (.\usbdesc.h)(0x4F9E4F16)
+I (.\usbuser.h)(0x4FBB0B9A)
+I (..\USBClass\HID\hid.h)(0x4D339F36)
+I (..\USBClass\HID\hiduser.h)(0x4FBB367C)
+I (..\USBClass\CDC\cdc.h)(0x4D339F26)
+I (..\USBClass\CDC\cdcuser.h)(0x4F9CF5A0)
+F (..\USBCore\usbhw.c)(0x4FBB378E)(-c --cpu Cortex-M0 -g -O2 --apcs=interwork -I. -I..\Common\inc -I..\USBCore -I..\USBClass\HID -I..\USBClass\CDC-I "E:\3.指纹门锁\HSM Tool\USB composite device on LPC11Uxx\software\USBComp_HID_CDC\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="515" -D_RTE_ -D__DEBUG_FLASH-o .\obj\usbhw.o --omf_browse .\obj\usbhw.crf --depend .\obj\usbhw.d)
+I (..\Common\inc\LPC11Uxx.h)(0x4EA4B986)
+I (..\Common\inc\core_cm0.h)(0x4D8FFC98)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Common\inc\core_cmInstr.h)(0x4D8FFC98)
+I (..\Common\inc\core_cmFunc.h)(0x4D8FFC98)
+I (..\Common\inc\system_LPC11Uxx.h)(0x4D8FFC98)
+I (..\Common\inc\type.h)(0x4FBB3856)
+I (..\USBCore\usb.h)(0x4FBB3588)
+I (.\usbcfg.h)(0x4FBDDBB4)
+I (..\USBCore\usbhw.h)(0x4FBB0F8A)
+I (..\USBCore\usbcore.h)(0x4FBB0338)
+I (.\usbuser.h)(0x4FBB0B9A)
+F (..\USBClass\HID\hiduser.c)(0x4FBB3888)(-c --cpu Cortex-M0 -g -O2 --apcs=interwork -I. -I..\Common\inc -I..\USBCore -I..\USBClass\HID -I..\USBClass\CDC-I "E:\3.指纹门锁\HSM Tool\USB composite device on LPC11Uxx\software\USBComp_HID_CDC\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="515" -D_RTE_ -D__DEBUG_FLASH-o .\obj\hiduser.o --omf_browse .\obj\hiduser.crf --depend .\obj\hiduser.d)
+I (..\Common\inc\type.h)(0x4FBB3856)
+I (..\USBCore\usb.h)(0x4FBB3588)
+I (..\USBClass\HID\hid.h)(0x4D339F36)
+I (.\usbcfg.h)(0x4FBDDBB4)
+I (..\USBCore\usbcore.h)(0x4FBB0338)
+I (..\USBClass\HID\hiduser.h)(0x4FBB367C)
+I (.\demo.h)(0x4FBDDE74)
+F (..\USBClass\CDC\cdcuser.c)(0x4FBDF580)(-c --cpu Cortex-M0 -g -O2 --apcs=interwork -I. -I..\Common\inc -I..\USBCore -I..\USBClass\HID -I..\USBClass\CDC-I "E:\3.指纹门锁\HSM Tool\USB composite device on LPC11Uxx\software\USBComp_HID_CDC\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="515" -D_RTE_ -D__DEBUG_FLASH-o .\obj\cdcuser.o --omf_browse .\obj\cdcuser.crf --depend .\obj\cdcuser.d)
+I (..\Common\inc\type.h)(0x4FBB3856)
+I (..\USBCore\usb.h)(0x4FBB3588)
+I (..\USBCore\usbhw.h)(0x4FBB0F8A)
+I (.\usbcfg.h)(0x4FBDDBB4)
+I (..\USBCore\usbcore.h)(0x4FBB0338)
+I (..\USBClass\CDC\cdc.h)(0x4D339F26)
+I (..\USBClass\CDC\cdcuser.h)(0x4F9CF5A0)
+I (.\serial.h)(0x4D339F26)
+F (.\serial.c)(0x4FBB46DC)(-c --cpu Cortex-M0 -g -O2 --apcs=interwork -I. -I..\Common\inc -I..\USBCore -I..\USBClass\HID -I..\USBClass\CDC-I "E:\3.指纹门锁\HSM Tool\USB composite device on LPC11Uxx\software\USBComp_HID_CDC\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="515" -D_RTE_ -D__DEBUG_FLASH-o .\obj\serial.o --omf_browse .\obj\serial.crf --depend .\obj\serial.d)
+I (..\Common\inc\LPC11Uxx.h)(0x4EA4B986)
+I (..\Common\inc\core_cm0.h)(0x4D8FFC98)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Common\inc\core_cmInstr.h)(0x4D8FFC98)
+I (..\Common\inc\core_cmFunc.h)(0x4D8FFC98)
+I (..\Common\inc\system_LPC11Uxx.h)(0x4D8FFC98)
+I (..\Common\inc\type.h)(0x4FBB3856)
+I (serial.h)(0x4D339F26)
+F (.\usbdesc.c)(0x4FE1C766)(-c --cpu Cortex-M0 -g -O2 --apcs=interwork -I. -I..\Common\inc -I..\USBCore -I..\USBClass\HID -I..\USBClass\CDC-I "E:\3.指纹门锁\HSM Tool\USB composite device on LPC11Uxx\software\USBComp_HID_CDC\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="515" -D_RTE_ -D__DEBUG_FLASH-o .\obj\usbdesc.o --omf_browse .\obj\usbdesc.crf --depend .\obj\usbdesc.d)
+I (..\Common\inc\type.h)(0x4FBB3856)
+I (..\USBCore\usb.h)(0x4FBB3588)
+I (usbcfg.h)(0x4FBDDBB4)
+I (usbdesc.h)(0x4F9E4F16)
+I (..\USBClass\CDC\cdc.h)(0x4D339F26)
+I (..\USBClass\CDC\cdcuser.h)(0x4F9CF5A0)
+I (..\USBClass\HID\hid.h)(0x4D339F36)
+I (..\USBClass\HID\hiduser.h)(0x4FBB367C)
+F (.\usbuser.c)(0x4FBB4E34)(-c --cpu Cortex-M0 -g -O2 --apcs=interwork -I. -I..\Common\inc -I..\USBCore -I..\USBClass\HID -I..\USBClass\CDC-I "E:\3.指纹门锁\HSM Tool\USB composite device on LPC11Uxx\software\USBComp_HID_CDC\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="515" -D_RTE_ -D__DEBUG_FLASH-o .\obj\usbuser.o --omf_browse .\obj\usbuser.crf --depend .\obj\usbuser.d)
+I (..\Common\inc\type.h)(0x4FBB3856)
+I (..\USBCore\usb.h)(0x4FBB3588)
+I (usbcfg.h)(0x4FBDDBB4)
+I (..\USBCore\usbhw.h)(0x4FBB0F8A)
+I (..\USBCore\usbcore.h)(0x4FBB0338)
+I (usbuser.h)(0x4FBB0B9A)
+I (..\USBClass\CDC\cdcuser.h)(0x4F9CF5A0)
+I (..\USBClass\HID\hiduser.h)(0x4FBB367C)
+I (demo.h)(0x4FBDDE74)
+F (.\demo.c)(0x4FBDDE38)(-c --cpu Cortex-M0 -g -O2 --apcs=interwork -I. -I..\Common\inc -I..\USBCore -I..\USBClass\HID -I..\USBClass\CDC-I "E:\3.指纹门锁\HSM Tool\USB composite device on LPC11Uxx\software\USBComp_HID_CDC\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="515" -D_RTE_ -D__DEBUG_FLASH-o .\obj\demo.o --omf_browse .\obj\demo.crf --depend .\obj\demo.d)
+I (..\Common\inc\lpc11Uxx.h)(0x4EA4B986)
+I (..\Common\inc\core_cm0.h)(0x4D8FFC98)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Common\inc\core_cmInstr.h)(0x4D8FFC98)
+I (..\Common\inc\core_cmFunc.h)(0x4D8FFC98)
+I (..\Common\inc\system_LPC11Uxx.h)(0x4D8FFC98)
+I (..\Common\inc\type.h)(0x4FBB3856)
+I (..\USBCore\usb.h)(0x4FBB3588)
+I (usbcfg.h)(0x4FBDDBB4)
+I (..\USBCore\usbhw.h)(0x4FBB0F8A)
+I (..\USBCore\usbcore.h)(0x4FBB0338)
+I (usbdesc.h)(0x4F9E4F16)
+I (..\USBClass\HID\hiduser.h)(0x4FBB367C)
+I (..\USBClass\CDC\cdcuser.h)(0x4F9CF5A0)
+I (serial.h)(0x4D339F26)
+I (demo.h)(0x4FBDDE74)
+F (.\Abstract.txt)(0x4FE1C7F6)()

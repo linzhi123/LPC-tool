@@ -1,0 +1,13 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\lpc11xx_debug.o"
+".\objects\lpc11xx_uart.o"
+".\objects\spi.o"
+".\objects\i2c.o"
+".\objects\fpm.o"
+".\objects\startup_lpc11uxx.o"
+".\objects\system_lpc11uxx.o"
+--strict --scatter ".\Objects\LPC_UART_SPI_I2C.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\LPC_UART_SPI_I2C.map" -o .\Objects\LPC_UART_SPI_I2C.axf

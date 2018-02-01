@@ -1,0 +1,7 @@
+---- CDC_DepInEmpty Matches (6 in 3 files) ----
+cdcuser.c (USBClass\CDC) line 36 : unsigned short  CDC_DepInEmpty  = 1;                   /* Data IN EP is empty */
+CDC_Init in cdcuser.c (USBClass\CDC) :   CDC_DepInEmpty  = 1;
+CDC_BulkIn in cdcuser.c (USBClass\CDC) :     CDC_DepInEmpty = 1;
+cdcuser.h (USBClass\CDC) line 61 : extern unsigned short CDC_DepInEmpty;         // DataEndPoint IN empty
+VCOM_Serial2Usb in demo.c (USBComp_DFU_CDC) : 		if (CDC_DepInEmpty) 
+VCOM_Serial2Usb in demo.c (USBComp_DFU_CDC) : 			//CDC_DepInEmpty = 0;	

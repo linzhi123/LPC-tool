@@ -1,0 +1,13 @@
+.\obj\usbhw.o: ..\USBCore\usbhw.c
+.\obj\usbhw.o: ..\Common\inc\LPC11Uxx.h
+.\obj\usbhw.o: ..\Common\inc\core_cm0.h
+.\obj\usbhw.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\usbhw.o: ..\Common\inc\core_cmInstr.h
+.\obj\usbhw.o: ..\Common\inc\core_cmFunc.h
+.\obj\usbhw.o: ..\Common\inc\system_LPC11Uxx.h
+.\obj\usbhw.o: ..\Common\inc\type.h
+.\obj\usbhw.o: ..\USBCore\usb.h
+.\obj\usbhw.o: ..\USBComp_DFU_CDC\usbcfg.h
+.\obj\usbhw.o: ..\USBCore\usbhw.h
+.\obj\usbhw.o: ..\USBCore\usbcore.h
+.\obj\usbhw.o: ..\USBComp_DFU_CDC\usbuser.h

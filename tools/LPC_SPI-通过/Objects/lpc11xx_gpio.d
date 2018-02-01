@@ -1,0 +1,9 @@
+.\objects\lpc11xx_gpio.o: drivers\lpc11xx\source\LPC11xx_gpio.c
+.\objects\lpc11xx_gpio.o: .\drivers\lpc11xx\include\lpc11xx_gpio.h
+.\objects\lpc11xx_gpio.o: E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\LPC11Uxx.h
+.\objects\lpc11xx_gpio.o: .\drivers\lpc11xx\include\core_cm0.h
+.\objects\lpc11xx_gpio.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lpc11xx_gpio.o: .\drivers\lpc11xx\include\cmsis_compiler.h
+.\objects\lpc11xx_gpio.o: .\drivers\lpc11xx\include\cmsis_armcc.h
+.\objects\lpc11xx_gpio.o: E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\system_LPC11Uxx.h
+.\objects\lpc11xx_gpio.o: .\drivers\common\lpc_types.h

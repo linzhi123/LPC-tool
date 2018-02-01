@@ -1,0 +1,64 @@
+Dependencies for Project 'I2C', Target 'I2C': (DO NOT MODIFY !)
+F (.\main\main.c)(0x5A6AE2E6)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Include -I .\drivers\common -I .\drivers\lpc11xx\include -I .\main-I.\RTE\_I2C-IE:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\lpc11uxx.h)(0x521EAC46)
+I (.\CMSIS\Include\core_cm0.h)(0x5A67DBBB)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\Include\core_cmInstr.h)(0x4F3DF1A1)
+I (.\CMSIS\Include\core_cmFunc.h)(0x4F3DF1A1)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\system_LPC11Uxx.h)(0x4D897128)
+I (.\drivers\lpc11xx\include\lpc11xx_uart.h)(0x5A53319A)
+I (.\drivers\common\lpc_types.h)(0x4FA2577D)
+I (.\drivers\common\print.h)(0x4FD5B4B1)
+F (.\drivers\lpc11xx\source\LPC11xx_debug.c)(0x4FD6AA3A)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Include -I .\drivers\common -I .\drivers\lpc11xx\include -I .\main-I.\RTE\_I2C-IE:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\lpc11xx_debug.o --omf_browse .\objects\lpc11xx_debug.crf --depend .\objects\lpc11xx_debug.d)
+I (.\drivers\common\includes.h)(0x4FD5B4B1)
+I (.\drivers\common\lpc_types.h)(0x4FA2577D)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\drivers\common\print.h)(0x4FD5B4B1)
+I (.\drivers\lpc11xx\include\lpc11xx_uart.h)(0x5A53319A)
+F (.\drivers\lpc11xx\source\LPC11xx_uart.c)(0x5A549153)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Include -I .\drivers\common -I .\drivers\lpc11xx\include -I .\main-I.\RTE\_I2C-IE:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\lpc11xx_uart.o --omf_browse .\objects\lpc11xx_uart.crf --depend .\objects\lpc11xx_uart.d)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\LPC11Uxx.h)(0x521EAC46)
+I (.\CMSIS\Include\core_cm0.h)(0x5A67DBBB)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\Include\core_cmInstr.h)(0x4F3DF1A1)
+I (.\CMSIS\Include\core_cmFunc.h)(0x4F3DF1A1)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\system_LPC11Uxx.h)(0x4D897128)
+I (.\drivers\lpc11xx\include\lpc11xx_uart.h)(0x5A53319A)
+I (.\drivers\common\lpc_types.h)(0x4FA2577D)
+F (.\I2C\ADS1100.c)(0x5A6AD7F7)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Include -I .\drivers\common -I .\drivers\lpc11xx\include -I .\main-I.\RTE\_I2C-IE:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\ads1100.o --omf_browse .\objects\ads1100.crf --depend .\objects\ads1100.d)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\lpc11uxx.h)(0x521EAC46)
+I (.\CMSIS\Include\core_cm0.h)(0x5A67DBBB)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\Include\core_cmInstr.h)(0x4F3DF1A1)
+I (.\CMSIS\Include\core_cmFunc.h)(0x4F3DF1A1)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\system_LPC11Uxx.h)(0x4D897128)
+I (.\drivers\lpc11xx\include\lpc11xx_uart.h)(0x5A53319A)
+I (.\drivers\common\lpc_types.h)(0x4FA2577D)
+I (.\drivers\common\print.h)(0x4FD5B4B1)
+F (.\I2C\PCA9555.c)(0x5A6A82C6)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Include -I .\drivers\common -I .\drivers\lpc11xx\include -I .\main-I.\RTE\_I2C-IE:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\pca9555.o --omf_browse .\objects\pca9555.crf --depend .\objects\pca9555.d)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\lpc11uxx.h)(0x521EAC46)
+I (.\CMSIS\Include\core_cm0.h)(0x5A67DBBB)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\Include\core_cmInstr.h)(0x4F3DF1A1)
+I (.\CMSIS\Include\core_cmFunc.h)(0x4F3DF1A1)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\system_LPC11Uxx.h)(0x4D897128)
+I (.\drivers\lpc11xx\include\lpc11xx_uart.h)(0x5A53319A)
+I (.\drivers\common\lpc_types.h)(0x4FA2577D)
+I (.\drivers\common\print.h)(0x4FD5B4B1)
+F (.\I2C\ADS1014.c)(0x5A6AE061)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Include -I .\drivers\common -I .\drivers\lpc11xx\include -I .\main-I.\RTE\_I2C-IE:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\ads1014.o --omf_browse .\objects\ads1014.crf --depend .\objects\ads1014.d)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\lpc11uxx.h)(0x521EAC46)
+I (.\CMSIS\Include\core_cm0.h)(0x5A67DBBB)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\Include\core_cmInstr.h)(0x4F3DF1A1)
+I (.\CMSIS\Include\core_cmFunc.h)(0x4F3DF1A1)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\system_LPC11Uxx.h)(0x4D897128)
+I (.\drivers\lpc11xx\include\lpc11xx_uart.h)(0x5A53319A)
+I (.\drivers\common\lpc_types.h)(0x4FA2577D)
+I (.\drivers\common\print.h)(0x4FD5B4B1)
+F (RTE\Device\LPC11U35FHI33_501\startup_LPC11Uxx.s)(0x521EAC46)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_I2C-IE:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc11uxx.lst --xref -o .\objects\startup_lpc11uxx.o --depend .\objects\startup_lpc11uxx.d)
+F (RTE\Device\LPC11U35FHI33_501\system_LPC11Uxx.c)(0x521EAC46)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Include -I .\drivers\common -I .\drivers\lpc11xx\include -I .\main-I.\RTE\_I2C-IE:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\system_lpc11uxx.o --omf_browse .\objects\system_lpc11uxx.crf --depend .\objects\system_lpc11uxx.d)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\LPC11Uxx.h)(0x521EAC46)
+I (.\CMSIS\Include\core_cm0.h)(0x5A67DBBB)
+I (.\CMSIS\Include\core_cmInstr.h)(0x4F3DF1A1)
+I (.\CMSIS\Include\core_cmFunc.h)(0x4F3DF1A1)
+I (E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\system_LPC11Uxx.h)(0x4D897128)

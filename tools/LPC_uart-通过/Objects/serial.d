@@ -1,0 +1,9 @@
+.\objects\serial.o: main\serial.c
+.\objects\serial.o: E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\LPC11Uxx.h
+.\objects\serial.o: .\CMSIS\Include\core_cm0.h
+.\objects\serial.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\serial.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\serial.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\serial.o: E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\system_LPC11Uxx.h
+.\objects\serial.o: .\drivers\lpc11xx\include\type.h
+.\objects\serial.o: main\serial.h

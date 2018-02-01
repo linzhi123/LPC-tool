@@ -1,0 +1,6 @@
+---- CDC_BulkOut Matches (5 in 3 files) ----
+cdcuser.c (C:\Users\test\Desktop\software\USBClass\CDC) line 303 :   CDC_BulkOut call on DataOut Request
+cdcuser.c (C:\Users\test\Desktop\software\USBClass\CDC) line 307 : void CDC_BulkOut(void) {
+CDC_StartOfFrame in cdcuser.c (C:\Users\test\Desktop\software\USBClass\CDC) :       CDC_BulkOut ();                              /* read pending data */
+cdcuser.h (C:\Users\test\Desktop\software\USBClass\CDC) line 49 : extern void CDC_BulkOut                  (void);
+USB_EndPoint3 in usbuser.c (C:\Users\test\Desktop\software\USBComp_DFU_CDC) :       CDC_BulkOut ();                /* data received from Host */

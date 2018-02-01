@@ -1,0 +1,12 @@
+.\obj\usbcore.o: ..\USBCore\usbcore.c
+.\obj\usbcore.o: ..\Common\inc\type.h
+.\obj\usbcore.o: ..\USBCore\usb.h
+.\obj\usbcore.o: ..\USBComp_DFU_CDC\usbcfg.h
+.\obj\usbcore.o: ..\USBCore\usbhw.h
+.\obj\usbcore.o: ..\USBCore\usbcore.h
+.\obj\usbcore.o: ..\USBComp_DFU_CDC\usbdesc.h
+.\obj\usbcore.o: ..\USBComp_DFU_CDC\usbuser.h
+.\obj\usbcore.o: ..\USBClass\CDC\cdc.h
+.\obj\usbcore.o: ..\USBClass\CDC\cdcuser.h
+.\obj\usbcore.o: ..\USBClass\DFU\dfu.h
+.\obj\usbcore.o: ..\USBClass\DFU\dfuuser.h

@@ -1,0 +1,11 @@
+.\objects\spi.o: LIB\spi.c
+.\objects\spi.o: E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\LPC11Uxx.h
+.\objects\spi.o: .\drivers\lpc11xx\include\core_cm0.h
+.\objects\spi.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\spi.o: .\drivers\lpc11xx\include\cmsis_compiler.h
+.\objects\spi.o: .\drivers\lpc11xx\include\cmsis_armcc.h
+.\objects\spi.o: E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\system_LPC11Uxx.h
+.\objects\spi.o: .\drivers\lpc11xx\include\LPC11xx_ssp.h
+.\objects\spi.o: .\drivers\common\lpc_types.h
+.\objects\spi.o: .\main\sbl.h
+.\objects\spi.o: .\main\sbl_master.h

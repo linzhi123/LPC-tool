@@ -1,0 +1,12 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\lpc11xx_debug.o"
+".\objects\lpc11xx_uart.o"
+".\objects\ads1100.o"
+".\objects\pca9555.o"
+".\objects\startup_lpc11uxx.o"
+".\objects\system_lpc11uxx.o"
+--strict --scatter ".\Objects\I2C.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\I2C.map" -o .\Objects\I2C.axf

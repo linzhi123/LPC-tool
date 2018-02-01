@@ -1,0 +1,16 @@
+The project is a demo program for the Keil MCB11U10 Board 
+using a NXP LPC11Uxx Microcontroller.
+
+Example functionality: 
+ - Clock Settings:
+   - XTAL                   = 12 MHz
+   - processor clock = CCLK = 48 MHz
+   - USB clock              = 48 MHz
+   
+It demonstrates an USB Composite Device(MSC+CDC).
+
+The USB MSC is recognized by the host PC running Windows
+which will load generic MSC driver. 
+For CDC, install the driver in current directory.
+
+Note: J1-ON, J2-ON, J4-23

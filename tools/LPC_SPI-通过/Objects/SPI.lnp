@@ -1,0 +1,13 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\spi.o"
+".\objects\sbl_master.o"
+".\objects\lpc11xx_uart.o"
+".\objects\lpc11xx_debug.o"
+".\objects\fpm.o"
+".\objects\startup_lpc11uxx.o"
+".\objects\system_lpc11uxx.o"
+--strict --scatter ".\Objects\SPI.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\SPI.map" -o .\Objects\SPI.axf

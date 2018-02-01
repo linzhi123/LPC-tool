@@ -1,0 +1,9 @@
+.\obj\mscuser.o: ..\USBClass\MSC\mscuser.c
+.\obj\mscuser.o: ..\Common\inc\type.h
+.\obj\mscuser.o: ..\USBCore\usb.h
+.\obj\mscuser.o: ..\USBClass\MSC\msc.h
+.\obj\mscuser.o: .\usbcfg.h
+.\obj\mscuser.o: ..\USBCore\usbhw.h
+.\obj\mscuser.o: ..\USBCore\usbcore.h
+.\obj\mscuser.o: ..\USBClass\MSC\mscuser.h
+.\obj\mscuser.o: .\demo.h

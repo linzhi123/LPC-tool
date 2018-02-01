@@ -1,0 +1,9 @@
+.\obj\lpc11xx_uart.o: I2C\LPC11xx_uart.c
+.\obj\lpc11xx_uart.o: ..\Common\inc\LPC11Uxx.h
+.\obj\lpc11xx_uart.o: ..\Common\inc\core_cm0.h
+.\obj\lpc11xx_uart.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\lpc11xx_uart.o: ..\Common\inc\core_cmInstr.h
+.\obj\lpc11xx_uart.o: ..\Common\inc\core_cmFunc.h
+.\obj\lpc11xx_uart.o: ..\Common\inc\system_LPC11Uxx.h
+.\obj\lpc11xx_uart.o: I2C\lpc11xx_uart.h
+.\obj\lpc11xx_uart.o: I2C\lpc_types.h

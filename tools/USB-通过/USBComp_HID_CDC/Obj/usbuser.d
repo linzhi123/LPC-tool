@@ -1,0 +1,10 @@
+.\obj\usbuser.o: usbuser.c
+.\obj\usbuser.o: ..\Common\inc\type.h
+.\obj\usbuser.o: ..\USBCore\usb.h
+.\obj\usbuser.o: usbcfg.h
+.\obj\usbuser.o: ..\USBCore\usbhw.h
+.\obj\usbuser.o: ..\USBCore\usbcore.h
+.\obj\usbuser.o: usbuser.h
+.\obj\usbuser.o: ..\USBClass\CDC\cdcuser.h
+.\obj\usbuser.o: ..\USBClass\HID\hiduser.h
+.\obj\usbuser.o: demo.h

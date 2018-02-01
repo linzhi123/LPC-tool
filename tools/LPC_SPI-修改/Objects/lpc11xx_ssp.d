@@ -1,0 +1,11 @@
+.\objects\lpc11xx_ssp.o: drivers\lpc11xx\source\LPC11xx_ssp.c
+.\objects\lpc11xx_ssp.o: .\drivers\lpc11xx\include\lpc11xx_ssp.h
+.\objects\lpc11xx_ssp.o: E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\LPC11Uxx.h
+.\objects\lpc11xx_ssp.o: .\drivers\lpc11xx\include\core_cm0.h
+.\objects\lpc11xx_ssp.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lpc11xx_ssp.o: .\drivers\lpc11xx\include\cmsis_compiler.h
+.\objects\lpc11xx_ssp.o: .\drivers\lpc11xx\include\cmsis_armcc.h
+.\objects\lpc11xx_ssp.o: E:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx\system_LPC11Uxx.h
+.\objects\lpc11xx_ssp.o: .\drivers\common\lpc_types.h
+.\objects\lpc11xx_ssp.o: .\drivers\lpc11xx\include\lpc11xx_pinsel.h
+.\objects\lpc11xx_ssp.o: .\drivers\lpc11xx\include\lpc11xx_gpio.h

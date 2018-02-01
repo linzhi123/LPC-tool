@@ -1,0 +1,11 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\lpc11xx_uart.o"
+".\objects\uart.o"
+".\objects\serial.o"
+".\objects\startup_lpc11uxx.o"
+".\objects\system_lpc11uxx.o"
+--strict --scatter ".\Objects\UART.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\UART.map" -o .\Objects\UART.axf

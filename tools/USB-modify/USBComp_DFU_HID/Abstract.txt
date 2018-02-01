@@ -1,0 +1,20 @@
+The project is a demo program for the Keil MCB11U10 Board 
+using a NXP LPC11Uxx Microcontroller.
+
+Example functionality: 
+ - Clock Settings:
+   - XTAL                   = 12 MHz
+   - processor clock = CCLK = 48 MHz
+   - USB clock              = 48 MHz
+   
+It demonstrates an USB Composite Device(DFU+HID).
+
+The USB HID is recognized by the host PC running Windows
+which will load generic HID driver. 
+The board LEDs and Push Buttons(S3 and S4) can then be accessed 
+from the PC through a custom HID Client Program(HIDClient.exe).
+For DFU, install the driver in \USBClass\DFU\Driver
+
+Note: J1-ON, J2-ON, J4-23
+
+

@@ -1,0 +1,10 @@
+.\objects\fs_config.o: RTE\File_System\FS_Config.c
+.\objects\fs_config.o: .\RTE\_uart\RTE_Components.h
+.\objects\fs_config.o: E:\keil\ARM\PACK\Keil\MDK-Middleware\7.4.0\FileSystem\Include\fs_config.h
+.\objects\fs_config.o: E:\keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\fs_config.o: E:\keil\ARM\ARMCC\Bin\..\include\rt_sys.h
+.\objects\fs_config.o: E:\keil\ARM\PACK\Keil\MDK-Middleware\7.4.0\FileSystem\Include\rl_fs_lib.h
+.\objects\fs_config.o: E:\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\fs_config.o: E:\keil\ARM\PACK\Keil\MDK-Middleware\7.4.0\FileSystem\Include\rl_fs.h
+.\objects\fs_config.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\fs_config.o: E:\keil\ARM\ARMCC\Bin\..\include\stdbool.h

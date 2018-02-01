@@ -1,0 +1,6 @@
+--cpu Cortex-M0 -g --apcs=interwork 
+-I.\RTE\_USBComp_Release
+-IE:\keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11Uxx
+-IE:\keil\ARM\CMSIS\Include
+--pd "__UVISION_VERSION SETA 523" --pd "NO_CRP SETA 1"
+--list .\lst\startup_lpc11uxx.lst --xref -o .\obj\startup_lpc11uxx.o --depend .\obj\startup_lpc11uxx.d "..\Common\src\startup_LPC11Uxx.s"

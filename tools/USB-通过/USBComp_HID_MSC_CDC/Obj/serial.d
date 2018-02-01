@@ -1,0 +1,9 @@
+.\obj\serial.o: serial.c
+.\obj\serial.o: ..\Common\inc\LPC11Uxx.h
+.\obj\serial.o: ..\Common\inc\core_cm0.h
+.\obj\serial.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\serial.o: ..\Common\inc\core_cmInstr.h
+.\obj\serial.o: ..\Common\inc\core_cmFunc.h
+.\obj\serial.o: ..\Common\inc\system_LPC11Uxx.h
+.\obj\serial.o: ..\Common\inc\type.h
+.\obj\serial.o: serial.h
